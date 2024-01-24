@@ -1,0 +1,9 @@
+{
+	"name": "dfbimktstartsmbl",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ca4277ce-bcc9-42c0-a1a5-2b6477a7fca6",
+		"tenantId": "abd5bb42-05b7-4813-89be-6313b139efcf"
+	}
+}
