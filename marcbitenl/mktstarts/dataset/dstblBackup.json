@@ -1,0 +1,30 @@
+{
+	"name": "dstblBackup",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "srvbimktstars",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "nome",
+				"type": "varchar"
+			},
+			{
+				"name": "descricao",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "backup"
+		}
+	}
+}
